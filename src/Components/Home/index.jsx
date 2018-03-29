@@ -1,5 +1,5 @@
 //Core
-import React, { Component } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 import { decrement, increment, reset } from '../../actions/counterAction';
 
@@ -36,14 +36,14 @@ const Home = props => {
     <div>
       <h2>Home</h2>
       <p>{props.result}</p>
-      <button className="btn" onClick={() => props.up(10)}>
-        +
+      <button className="btn" onClick={() => props.down(5)}>
+        -
       </button>
       <button className="btn" onClick={() => props.reload()}>
         {props.result} - reset
       </button>
-      <button className="btn" onClick={() => props.down(5)}>
-        -
+      <button className="btn" onClick={() => props.up(10)}>
+        +
       </button>
     </div>
   );

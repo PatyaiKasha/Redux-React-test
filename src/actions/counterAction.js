@@ -14,6 +14,9 @@ export function decrement(step) {
 export function reset(step) {
   return {
     type: 'RESET',
-    payload: step,
   };
 }
+
+// export reset{
+//     type: 'RESET'
+//    }
