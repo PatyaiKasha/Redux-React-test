@@ -1,7 +1,6 @@
 //Core
 import React, { Component } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
-// import { BrowserRouter, Router, Route, Link, Switch } from 'react-router-dom';
 
 //Instruments
 import Header from './Components/Header';
