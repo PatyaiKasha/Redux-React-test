@@ -10,8 +10,7 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-  //2
-  //3 store = {store}
+ 
   <Provider store={store}>
     <BrowserRouter>
       <App />

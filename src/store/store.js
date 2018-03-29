@@ -1,4 +1,4 @@
-//Core
+//2
 import { createStore } from 'redux';
 
 const store = createStore();
