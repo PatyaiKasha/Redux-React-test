@@ -3,20 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.1",
+    "vite": "^7.1.7",
     "redux-logger": "^3.0.6"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "react-redux": "^5.0.7",
-    "redux": "^3.7.2"
+    "@vitejs/plugin-react": "^5.0.3",
+    "react-redux": "^7.2.9",
+    "redux": "^4.2.1"
+  },
+  "overrides": {
+    "lodash-es": "4.17.21",
+    "path-to-regexp": "1.9.0"
   }
 }
